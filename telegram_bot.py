@@ -10,7 +10,7 @@ import os
 import sys
 from datetime import datetime
 
-TOKEN = "8674087870:AAEhhYMlpXMMYGlAm6wnBUZ3CU6aZHWVFOg"
+import os; TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 ALLOWED_USERS = [2560082]
 DB_CONN = "postgresql://agent_system:1@localhost:5432/agent_hub"
 API = f"https://api.telegram.org/bot{TOKEN}"
