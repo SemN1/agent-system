@@ -1,0 +1,24 @@
+# ============================================================
+# Python Dependencies - Agent System v2.0
+# ============================================================
+
+# Core
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Database
+psycopg2-binary>=2.9.9
+
+# Vector Store
+chromadb>=0.4.22
+
+# Optional (per future espansioni)
+# langchain>=0.1.0
+# langgraph>=0.0.20
+# crewai>=0.1.0
+
+# CLI utilities
+argparse>=1.4.0
+
+# Testing (opzionale)
+pytest>=7.4.0
