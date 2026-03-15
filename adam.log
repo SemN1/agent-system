@@ -59,3 +59,350 @@
 2026-03-15 10:35:02,531 [ADAM] INFO Messaggio ricevuto: fammi updates su progetto beauty db
 2026-03-15 10:35:02,584 [ADAM] INFO Usando Claude per: fammi updates su progetto beauty db
 2026-03-15 10:35:02,584 [ADAM] INFO Usando Claude per: fammi updates su progetto beauty db
+2026-03-15 10:50:29,480 [ADAM] INFO Messaggio ricevuto: ciao come ti chiami e cosa fai?
+2026-03-15 10:50:29,480 [ADAM] INFO Messaggio ricevuto: ciao come ti chiami e cosa fai?
+2026-03-15 10:50:29,528 [ADAM] INFO Usando Ollama per: ciao come ti chiami e cosa fai?
+2026-03-15 10:50:29,528 [ADAM] INFO Usando Ollama per: ciao come ti chiami e cosa fai?
+2026-03-15 10:52:30,648 [ADAM] INFO Messaggio ricevuto: Ok, dammi un update rapido sul progetto Personal R
+2026-03-15 10:52:30,648 [ADAM] INFO Messaggio ricevuto: Ok, dammi un update rapido sul progetto Personal R
+2026-03-15 10:52:30,696 [ADAM] INFO Usando Claude per: Ok, dammi un update rapido sul progetto Personal R
+2026-03-15 10:52:30,696 [ADAM] INFO Usando Claude per: Ok, dammi un update rapido sul progetto Personal R
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 404
+    salon_context = "
+                    ^
+SyntaxError: unterminated string literal (detected at line 404)
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 399
+    salon_context = "\n\nDATI REALI BEAUTY SALON DB:\n"
+IndentationError: unexpected indent
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+  File "/home/semn1/origin/adam.py", line 864
+    global KB_CONTENT
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: name 'KB_CONTENT' is assigned to before global declaration
+2026-03-15 11:15:46,459 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-15 11:15:46,459 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-15 11:15:46,488 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-15 11:15:46,488 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-15 11:15:46,489 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-15 11:15:46,489 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-15 11:15:46,499 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-15 11:15:46,499 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-15 11:15:46,499 [ADAM] INFO ChromaDB connesso
+2026-03-15 11:15:46,499 [ADAM] INFO ChromaDB connesso
+2026-03-15 11:15:46,773 [ADAM] ERROR Errore KB GitHub: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/SemN1/origin/main/ADAM_KNOWLEDGE_BASE.md
+2026-03-15 11:15:46,773 [ADAM] ERROR Errore KB GitHub: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/SemN1/origin/main/ADAM_KNOWLEDGE_BASE.md
+2026-03-15 11:15:46,774 [ADAM] INFO KB caricata da file locale
+2026-03-15 11:15:46,774 [ADAM] INFO KB caricata da file locale
+2026-03-15 11:15:46,777 [ADAM] INFO L1: 12642 char
+2026-03-15 11:15:46,777 [ADAM] INFO L1: 12642 char
+2026-03-15 11:15:46,806 [ADAM] INFO L2b: 16 conversazioni
+2026-03-15 11:15:46,806 [ADAM] INFO L2b: 16 conversazioni
+2026-03-15 11:15:46,806 [ADAM] INFO Memoria caricata: 5711 caratteri
+2026-03-15 11:15:46,806 [ADAM] INFO Memoria caricata: 5711 caratteri
+2026-03-15 11:15:46,806 [ADAM] INFO Adam avviato su Telegram
+2026-03-15 11:15:46,806 [ADAM] INFO Adam avviato su Telegram
+2026-03-15 11:27:07,988 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-15 11:27:07,988 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-15 11:27:08,016 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-15 11:27:08,016 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-15 11:27:08,017 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-15 11:27:08,017 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-15 11:27:08,022 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-15 11:27:08,022 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-15 11:27:08,023 [ADAM] INFO ChromaDB connesso
+2026-03-15 11:27:08,023 [ADAM] INFO ChromaDB connesso
+2026-03-15 11:27:08,195 [ADAM] ERROR Errore KB GitHub: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/SemN1/origin/main/ADAM_KNOWLEDGE_BASE.md
+2026-03-15 11:27:08,195 [ADAM] ERROR Errore KB GitHub: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/SemN1/origin/main/ADAM_KNOWLEDGE_BASE.md
+2026-03-15 11:27:08,195 [ADAM] INFO KB caricata da file locale
+2026-03-15 11:27:08,195 [ADAM] INFO KB caricata da file locale
+2026-03-15 11:27:08,199 [ADAM] INFO L1: 12642 char
+2026-03-15 11:27:08,199 [ADAM] INFO L1: 12642 char
+2026-03-15 11:27:08,228 [ADAM] INFO L2b: 16 conversazioni
+2026-03-15 11:27:08,228 [ADAM] INFO L2b: 16 conversazioni
+2026-03-15 11:27:08,228 [ADAM] INFO Memoria caricata: 5711 caratteri
+2026-03-15 11:27:08,228 [ADAM] INFO Memoria caricata: 5711 caratteri
+2026-03-15 11:27:08,228 [ADAM] INFO Adam avviato su Telegram
+2026-03-15 11:27:08,228 [ADAM] INFO Adam avviato su Telegram
+2026-03-15 11:30:01,474 [ADAM] INFO Messaggio: dammi update sul progetto beauty db scraper
+2026-03-15 11:30:01,474 [ADAM] INFO Messaggio: dammi update sul progetto beauty db scraper
+[0;93m2026-03-15 11:30:01.671174622 [W:onnxruntime:Default, device_discovery.cc:211 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:91 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+2026-03-15 11:30:01,995 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/query "HTTP/1.1 200 OK"
+2026-03-15 11:30:01,995 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/query "HTTP/1.1 200 OK"
+2026-03-15 11:30:01,995 [ADAM] INFO Usando Claude per: dammi update sul progetto beauty db scraper
+2026-03-15 11:30:01,995 [ADAM] INFO Usando Claude per: dammi update sul progetto beauty db scraper
+2026-03-15 11:30:10,036 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+2026-03-15 11:30:10,036 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+2026-03-15 11:30:10,083 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/add "HTTP/1.1 201 Created"
+2026-03-15 11:30:10,083 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/add "HTTP/1.1 201 Created"
+2026-03-15 11:30:24,635 [ADAM] INFO Messaggio: si
+2026-03-15 11:30:24,635 [ADAM] INFO Messaggio: si
+2026-03-15 11:30:24,867 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/query "HTTP/1.1 200 OK"
+2026-03-15 11:30:24,867 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/query "HTTP/1.1 200 OK"
+2026-03-15 11:30:24,867 [ADAM] INFO Usando Ollama per: si
+2026-03-15 11:30:24,867 [ADAM] INFO Usando Ollama per: si
+2026-03-15 11:31:10,856 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-15 11:31:10,856 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-15 11:31:10,883 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-15 11:31:10,883 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-15 11:31:10,884 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-15 11:31:10,884 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-15 11:31:10,885 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-15 11:31:10,885 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-15 11:31:10,886 [ADAM] INFO ChromaDB connesso
+2026-03-15 11:31:10,886 [ADAM] INFO ChromaDB connesso
+2026-03-15 11:31:11,176 [ADAM] INFO KB caricata da GitHub
+2026-03-15 11:31:11,176 [ADAM] INFO KB caricata da GitHub
+2026-03-15 11:31:11,178 [ADAM] INFO L1: 12642 char
+2026-03-15 11:31:11,178 [ADAM] INFO L1: 12642 char
+2026-03-15 11:31:11,194 [ADAM] INFO L2b: 19 conversazioni
+2026-03-15 11:31:11,194 [ADAM] INFO L2b: 19 conversazioni
+2026-03-15 11:31:11,194 [ADAM] INFO Memoria caricata: 5982 caratteri
+2026-03-15 11:31:11,194 [ADAM] INFO Memoria caricata: 5982 caratteri
+2026-03-15 11:31:11,194 [ADAM] INFO Adam avviato su Telegram
+2026-03-15 11:31:11,194 [ADAM] INFO Adam avviato su Telegram
+2026-03-15 11:31:11,632 [ADAM] INFO Messaggio: si
+2026-03-15 11:31:11,632 [ADAM] INFO Messaggio: si
+[0;93m2026-03-15 11:31:11.705482074 [W:onnxruntime:Default, device_discovery.cc:211 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:91 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+2026-03-15 11:31:11,932 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/query "HTTP/1.1 200 OK"
+2026-03-15 11:31:11,932 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/query "HTTP/1.1 200 OK"
+2026-03-15 11:31:11,932 [ADAM] INFO Usando Ollama per: si
+2026-03-15 11:31:11,932 [ADAM] INFO Usando Ollama per: si
