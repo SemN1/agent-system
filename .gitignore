@@ -1,5 +1,4 @@
 .env
 .env.save
-y
 __pycache__/
 *.pyc
