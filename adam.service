@@ -1,0 +1,17 @@
+[Unit]
+Description=Adam - Agente Segretario Origin
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+User=semn1
+WorkingDirectory=/home/semn1/origin
+EnvironmentFile=/home/semn1/origin/.env
+ExecStart=/usr/bin/python3 /home/semn1/origin/adam.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/semn1/origin/adam.log
+StandardError=append:/home/semn1/origin/adam.log
+
+[Install]
+WantedBy=multi-user.target

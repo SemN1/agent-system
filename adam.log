@@ -1,0 +1,61 @@
+2026-03-15 09:42:46,147 [ADAM] INFO 🤖 Adam avviato su Telegram
+2026-03-15 09:42:49,685 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:42:55,016 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:00,358 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:05,683 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:11,046 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:16,375 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:21,700 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:27,287 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:32,619 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:37,951 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:43,312 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:48,678 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:54,004 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:43:59,325 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:44:04,669 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:44:10,001 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:44:15,332 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:44:20,681 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:44:26,014 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:44:31,377 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 09:45:45,035 [ADAM] INFO 🤖 Adam avviato su Telegram
+2026-03-15 09:45:45,425 [ADAM] INFO Messaggio ricevuto: ciao come ti chiami?
+2026-03-15 09:45:45,483 [ADAM] INFO Usando Ollama per: ciao come ti chiami?
+2026-03-15 09:52:36,093 [ADAM] INFO 🤖 Adam avviato su Telegram
+2026-03-15 09:52:45,279 [ADAM] INFO Messaggio ricevuto: ciao come ti chiami?
+2026-03-15 09:52:45,332 [ADAM] INFO Usando Ollama per: ciao come ti chiami?
+2026-03-15 09:54:33,912 [ADAM] INFO 🤖 Adam avviato su Telegram
+2026-03-15 09:54:42,536 [ADAM] INFO Messaggio ricevuto: ciao come ti chiami
+2026-03-15 09:54:42,581 [ADAM] INFO Usando Ollama per: ciao come ti chiami
+2026-03-15 10:27:07,960 [ADAM] INFO 🤖 Adam avviato su Telegram
+2026-03-15 10:27:26,851 [ADAM] INFO Messaggio ricevuto: ciao, come ti chiami e cosa sai fare?
+2026-03-15 10:27:26,908 [ADAM] INFO Usando Ollama per: ciao, come ti chiami e cosa sai fare?
+2026-03-15 10:30:18,310 [ADAM] INFO Messaggio ricevuto: quali sono i progetti attivi?
+2026-03-15 10:30:18,361 [ADAM] INFO Usando Claude per: quali sono i progetti attivi?
+2026-03-15 10:33:32,075 [ADAM] INFO 🤖 Adam avviato su Telegram
+2026-03-15 10:33:32,075 [ADAM] INFO 🤖 Adam avviato su Telegram
+2026-03-15 10:33:32,446 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=667882155&timeout=10
+2026-03-15 10:33:37,594 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:33:37,594 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:33:39,746 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=667882155&timeout=10
+2026-03-15 10:33:44,897 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:33:44,897 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:33:47,047 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=667882155&timeout=10
+2026-03-15 10:33:52,244 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:33:52,244 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:33:54,395 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=667882155&timeout=10
+2026-03-15 10:33:59,542 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:33:59,542 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:34:01,693 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=667882155&timeout=10
+2026-03-15 10:34:06,842 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:34:06,842 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:34:08,992 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=667882155&timeout=10
+2026-03-15 10:34:14,148 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:34:14,148 [ADAM] ERROR Errore getUpdates: 409 Client Error: Conflict for url: https://api.telegram.org/bot8674087870:AAH9S6FNABKsOswbJJl-Cg0xOQLDnKn4PbU/getUpdates?offset=0&timeout=10
+2026-03-15 10:34:22,603 [ADAM] INFO 🤖 Adam avviato su Telegram
+2026-03-15 10:34:22,603 [ADAM] INFO 🤖 Adam avviato su Telegram
+2026-03-15 10:35:02,531 [ADAM] INFO Messaggio ricevuto: fammi updates su progetto beauty db
+2026-03-15 10:35:02,531 [ADAM] INFO Messaggio ricevuto: fammi updates su progetto beauty db
+2026-03-15 10:35:02,584 [ADAM] INFO Usando Claude per: fammi updates su progetto beauty db
+2026-03-15 10:35:02,584 [ADAM] INFO Usando Claude per: fammi updates su progetto beauty db
