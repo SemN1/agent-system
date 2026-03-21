@@ -1,0 +1,89 @@
+2026-03-16 02:30:02,652 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-16 02:30:02,771 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-16 02:30:02,771 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-16 02:30:02,797 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-16 02:30:02,798 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-16 02:30:02,811 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-16 02:30:02,811 [ADAM] INFO ChromaDB connesso
+2026-03-16 02:30:03,053 [ADAM] INFO KB caricata da GitHub
+2026-03-16 02:30:03,056 [ADAM] INFO L1: 12642 char
+2026-03-16 02:30:03,091 [ADAM] INFO L2b: 20 conversazioni
+2026-03-16 02:30:03,091 [ADAM] INFO Memoria caricata: 6291 caratteri
+2026-03-16 02:30:03,091 [ADAM] INFO Avvio backup notturno...
+2026-03-16 02:30:07,639 [ADAM] INFO Recap 2026-03-16 pushato su GitHub
+2026-03-16 02:30:09,372 [ADAM] INFO Backup notturno completato
+2026-03-17 02:30:02,164 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-17 02:30:02,280 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-17 02:30:02,280 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-17 02:30:02,306 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-17 02:30:02,307 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-17 02:30:02,319 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-17 02:30:02,320 [ADAM] INFO ChromaDB connesso
+2026-03-17 02:30:02,580 [ADAM] INFO KB caricata da GitHub
+2026-03-17 02:30:02,584 [ADAM] INFO L1: 12642 char
+2026-03-17 02:30:02,584 [ADAM] INFO L2: 1 file
+2026-03-17 02:30:02,613 [ADAM] INFO L2b: 20 conversazioni
+2026-03-17 02:30:02,613 [ADAM] INFO Memoria caricata: 7021 caratteri
+2026-03-17 02:30:02,613 [ADAM] INFO Avvio backup notturno...
+2026-03-17 02:30:07,555 [ADAM] INFO Recap 2026-03-17 pushato su GitHub
+2026-03-17 02:30:09,165 [ADAM] INFO Backup notturno completato
+2026-03-18 02:30:02,118 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-18 02:30:02,228 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-18 02:30:02,229 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-18 02:30:02,254 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-18 02:30:02,255 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-18 02:30:02,267 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-18 02:30:02,268 [ADAM] INFO ChromaDB connesso
+2026-03-18 02:30:02,503 [ADAM] INFO KB caricata da GitHub
+2026-03-18 02:30:02,507 [ADAM] INFO L1: 12642 char
+2026-03-18 02:30:02,508 [ADAM] INFO L2: 2 file
+2026-03-18 02:30:02,536 [ADAM] INFO L2b: 20 conversazioni
+2026-03-18 02:30:02,536 [ADAM] INFO Memoria caricata: 7546 caratteri
+2026-03-18 02:30:02,536 [ADAM] INFO Avvio backup notturno...
+2026-03-18 02:30:07,303 [ADAM] INFO Recap 2026-03-18 pushato su GitHub
+2026-03-18 02:30:09,023 [ADAM] INFO Backup notturno completato
+2026-03-19 02:30:02,175 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-19 02:30:02,289 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-19 02:30:02,289 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-19 02:30:02,316 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-19 02:30:02,317 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-19 02:30:02,329 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-19 02:30:02,330 [ADAM] INFO ChromaDB connesso
+2026-03-19 02:30:02,575 [ADAM] INFO KB caricata da GitHub
+2026-03-19 02:30:02,578 [ADAM] INFO L1: 12642 char
+2026-03-19 02:30:02,578 [ADAM] INFO L2: 3 file
+2026-03-19 02:30:02,594 [ADAM] INFO L2b: 4 conversazioni
+2026-03-19 02:30:02,594 [ADAM] INFO Memoria caricata: 6108 caratteri
+2026-03-19 02:30:02,594 [ADAM] INFO Avvio backup notturno...
+2026-03-19 02:30:07,834 [ADAM] INFO Recap 2026-03-19 pushato su GitHub
+2026-03-19 02:30:09,534 [ADAM] INFO Backup notturno completato
+2026-03-20 02:30:02,722 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-20 02:30:02,839 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-20 02:30:02,839 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-20 02:30:02,866 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-20 02:30:02,867 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-20 02:30:02,882 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-20 02:30:02,883 [ADAM] INFO ChromaDB connesso
+2026-03-20 02:30:03,143 [ADAM] INFO KB caricata da GitHub
+2026-03-20 02:30:03,147 [ADAM] INFO L1: 12642 char
+2026-03-20 02:30:03,151 [ADAM] INFO L2: 4 file
+2026-03-20 02:30:03,180 [ADAM] INFO L2b: 4 conversazioni
+2026-03-20 02:30:03,180 [ADAM] INFO Memoria caricata: 6865 caratteri
+2026-03-20 02:30:03,180 [ADAM] INFO Avvio backup notturno...
+2026-03-20 02:30:08,930 [ADAM] INFO Recap 2026-03-20 pushato su GitHub
+2026-03-20 02:30:10,703 [ADAM] INFO Backup notturno completato
+2026-03-21 02:30:02,306 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-21 02:30:02,425 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-21 02:30:02,426 [ADAM] INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-21 02:30:02,453 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-21 02:30:02,454 [ADAM] INFO HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-21 02:30:02,470 [ADAM] INFO HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-21 02:30:02,471 [ADAM] INFO ChromaDB connesso
+2026-03-21 02:30:02,697 [ADAM] INFO KB caricata da GitHub
+2026-03-21 02:30:02,700 [ADAM] INFO L1: 12642 char
+2026-03-21 02:30:02,704 [ADAM] INFO L2: 5 file
+2026-03-21 02:30:02,762 [ADAM] INFO L2b: 4 conversazioni
+2026-03-21 02:30:02,763 [ADAM] INFO Memoria caricata: 7450 caratteri
+2026-03-21 02:30:02,763 [ADAM] INFO Avvio backup notturno...
+2026-03-21 02:30:07,457 [ADAM] INFO Recap 2026-03-21 pushato su GitHub
+2026-03-21 02:30:09,117 [ADAM] INFO Backup notturno completato

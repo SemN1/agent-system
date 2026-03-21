@@ -1,0 +1,87 @@
+2026-03-15 11:43:30,844 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-15 11:43:30,871 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-15 11:43:30,872 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-15 11:43:30,874 [ADAM-API] HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-15 11:43:30,874 [ADAM-API] ChromaDB connesso
+2026-03-15 11:43:30,874 [ADAM-API] Modulo Adam importato
+2026-03-15 11:43:31,096 [ADAM-API] KB caricata da GitHub
+2026-03-15 11:43:31,099 [ADAM-API] L1: 12642 char
+2026-03-15 11:43:31,128 [ADAM-API] L2b: 20 conversazioni
+2026-03-15 11:43:31,128 [ADAM-API] Memoria caricata: 6291 caratteri
+INFO:     Started server process [2175663]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:11435 (Press CTRL+C to quit)
+INFO:     127.0.0.1:38704 - "GET /health HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52402 - "OPTIONS /v1/openapi.json HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53458 - "GET /v1/models HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2175663]
+2026-03-15 11:56:43,757 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-15 11:56:43,784 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-15 11:56:43,785 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-15 11:56:43,786 [ADAM-API] HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-15 11:56:43,787 [ADAM-API] ChromaDB connesso
+2026-03-15 11:56:43,787 [ADAM-API] Modulo Adam importato
+2026-03-15 11:56:43,972 [ADAM-API] KB caricata da GitHub
+2026-03-15 11:56:43,975 [ADAM-API] L1: 12642 char
+2026-03-15 11:56:44,004 [ADAM-API] L2b: 20 conversazioni
+2026-03-15 11:56:44,004 [ADAM-API] Memoria caricata: 6291 caratteri
+INFO:     Started server process [2176855]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:11435 (Press CTRL+C to quit)
+INFO:     192.168.1.16:52424 - "OPTIONS /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2176855]
+2026-03-15 11:59:40,363 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-03-15 11:59:40,390 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-03-15 11:59:40,391 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-03-15 11:59:40,392 [ADAM-API] HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-03-15 11:59:40,393 [ADAM-API] ChromaDB connesso
+2026-03-15 11:59:40,393 [ADAM-API] Modulo Adam importato
+2026-03-15 11:59:40,677 [ADAM-API] KB caricata da GitHub
+2026-03-15 11:59:40,681 [ADAM-API] L1: 12642 char
+2026-03-15 11:59:40,710 [ADAM-API] L2b: 20 conversazioni
+2026-03-15 11:59:40,710 [ADAM-API] Memoria caricata: 6291 caratteri
+INFO:     Started server process [2177078]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:11435 (Press CTRL+C to quit)
+INFO:     192.168.1.16:52432 - "OPTIONS /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52432 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52432 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52432 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52441 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52441 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52441 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59972 - "GET /v1/models HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52460 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52574 - "OPTIONS /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52574 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52592 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52597 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52597 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.1.16:52603 - "GET /v1/openapi.json HTTP/1.1" 200 OK
+INFO:     172.17.0.2:53218 - "GET /v1/api/tags HTTP/1.1" 404 Not Found
+2026-03-19 21:01:07,495 [ADAM-API] Richiesta WebUI: Ciao, chi sei e cosa fai?
+[0;93m2026-03-19 21:01:07.603091825 [W:onnxruntime:Default, device_discovery.cc:211 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:91 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+2026-03-19 21:01:07,908 [ADAM-API] HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/query "HTTP/1.1 200 OK"
+2026-03-19 21:01:07,909 [ADAM-API] Usando Ollama per: Ciao, chi sei e cosa fai?
+2026-03-19 21:02:44,507 [ADAM-API] HTTP Request: GET http://localhost:8000/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+2026-03-19 21:02:44,532 [ADAM-API] HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/add "HTTP/1.1 201 Created"
+INFO:     172.17.0.2:43152 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2026-03-19 21:44:23,939 [ADAM-API] Richiesta WebUI: Fai una ricerca online e trovami tutto il top mana
+2026-03-19 21:44:24,185 [ADAM-API] HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/query "HTTP/1.1 200 OK"
+2026-03-19 21:44:24,185 [ADAM-API] Usando Ollama per: Fai una ricerca online e trovami tutto il top mana
+2026-03-19 21:46:35,595 [ADAM-API] HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/add "HTTP/1.1 201 Created"
+INFO:     172.17.0.2:60022 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2026-03-21 16:21:42,492 [ADAM-API] Richiesta WebUI:  Adam, dimmi per favore, Booksy e Treatwell quanti
+2026-03-21 16:21:42,793 [ADAM-API] HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/query "HTTP/1.1 200 OK"
+2026-03-21 16:21:42,793 [ADAM-API] Usando Claude per:  Adam, dimmi per favore, Booksy e Treatwell quanti
+2026-03-21 16:21:52,229 [ADAM-API] HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/28fd6d8e-d3c5-4d35-97a1-9fcc4748b8ab/add "HTTP/1.1 201 Created"
+INFO:     172.17.0.2:56770 - "POST /v1/chat/completions HTTP/1.1" 200 OK

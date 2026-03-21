@@ -17,6 +17,7 @@ import chromadb
 from datetime import datetime, date
 from typing import List
 from dotenv import load_dotenv
+from adam_executor import detect_action_intent, execute_action, needs_approval
 
 load_dotenv('/home/semn1/origin/.env')
 
@@ -396,6 +397,15 @@ def process_message(user_message, session_id):
     if not response:
         response = "Errore nella generazione della risposta. Riprova."
 
+    # Rileva e esegui azioni autonome
+    action_intent = detect_action_intent(user_message)
+    if action_intent['action_type']:
+        if action_intent['requires_approval']:
+            response += f"\n\n⚠️ Quest'azione richiede la tua approvazione. Confermi? Rispondi /approva o /annulla"
+        else:
+            action_result = execute_action(action_intent, user_message)
+            response += f"\n\n🔧 **Azione eseguita:**\n{action_result}"
+
     save_conversation(session_id, 'assistant', response)
     extract_memories(user_message, response)
     save_to_chroma(
@@ -578,11 +588,12 @@ class TelegramBot:
     def send(self, text, chat_id=None):
         chat_id = chat_id or TELEGRAM_CHAT_ID
         try:
-            requests.post(f"{self.api}/sendMessage", json={
+            resp = requests.post(f"{self.api}/sendMessage", json={
                 "chat_id": chat_id, "text": text, "parse_mode": "Markdown"
             }, timeout=15)
+            log.info(f"Telegram send: {resp.status_code} - {text[:50]}")
         except Exception as e:
-            log.error(f"Errore Telegram: {e}")
+            log.error(f"Errore Telegram send: {e}")
 
     def get_updates(self):
         try:

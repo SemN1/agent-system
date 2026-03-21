@@ -1,0 +1,2 @@
+nohup: input ignorato
+/usr/bin/python3: No module named open_webui.__main__; 'open_webui' is a package and cannot be directly executed
