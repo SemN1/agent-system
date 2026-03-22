@@ -400,3 +400,29 @@ Adam non può vivere in una chat Claude perché la finestra di contesto si esaur
 *Questo documento è la knowledge base fondativa di Adam.*
 *Va aggiornato ad ogni sessione di lavoro significativa.*
 *Sempre disponibile su: https://github.com/SemN1/origin/blob/main/ADAM_KNOWLEDGE_BASE.md*
+
+
+## Aggiornamento 2026-03-22
+
+### 🔧 **Decisioni Tecniche**
+- **Implementazione scraper Booksy UK**: Sviluppato nuovo scraper Python con supporto per rate limiting, gestione cookie e proxy rotation per compliance con ToS
+- **Fix scraper Spagna**: Identificati problemi di aggiornamento dati nel scraper spagnolo, richiede manutenzione per continuità del servizio
+
+### 📊 **Stato Database Beauty Salon**
+- **Milestone raggiunta**: Database ora contiene **608,024+ saloni europei** (precedentemente 611k+)
+- **Copertura telefonica**: 337,428 saloni con numero di telefono (55.5% del totale)
+- **Dimensioni database**: ~847MB operativo
+- **Distribuzione geografica**: Germania leader con 234,288 saloni (51% con telefono)
+
+### 🚀 **Operazioni Attive**
+- **Website scraper Italia**: Lanciato processo di raccolta dati per territorio italiano
+- **Scraping status**: Processo attivo e monitorato su tutti i paesi target europei
+
+### ⚙️ **Infrastruttura Server**
+- **Status stabile**: Server semn1 (192.168.1.13) operativo con risorse ottimali
+- **Utilizzo risorse**: RAM 86% libera, GPU sotto-utilizzata (212MB/8192MB), storage 63% disponibile
+- **Performance**: Sistema mantiene stabilità operativa per processi di scraping intensivi
+
+### 🛡️ **Compliance e Sicurezza**
+- **Nuovi protocolli**: Implementazione disclaimer legali per tutti i nuovi scraper
+- **Rate limiting**: Adozione di pratiche di scraping responsabile con controllo frequenza richieste
