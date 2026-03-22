@@ -1,19 +1,20 @@
 # Status - Agent Army
-**Aggiornato:** 22 Marzo 2026
+**Aggiornato:** 2026-03-22
 
-## Stato generale
-- Fase: Planning
-- GitHub repo: https://github.com/SemN1/Agent-Army
-- Sviluppo: non ancora iniziato
+## Stato
+planning
 
-## Completato
-- Blueprint iniziale definito
-- GitHub repo creato
+## Fase Corrente
+Setup iniziale
 
-## Bloccato
-- Nulla al momento
+## Ultimo Step Completato
+Progetto creato
 
-## Prossimi step
-- Definire blueprint tecnico dettagliato
-- Decidere stack frontend per onboarding
-- Sviluppare primo agente MVP
+## Prossimo Step
+Definire blueprint dettagliato con idea di business
+
+## Blocchi
+Nessuno
+
+## Metriche
+- Data creazione: 2026-03-22
