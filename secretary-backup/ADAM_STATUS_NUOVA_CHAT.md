@@ -6,63 +6,84 @@
 
 ## 1. IDENTITA SISTEMA
 
-- **Progetto:** Origin
-- **Agente segretario:** Adam
-- **Proprietario:** Sem (Simone)
-- **Server:** semn1 / 192.168.1.13 / Ubuntu 24 / GTX 1080 8GB / 32GB RAM
+- Progetto: Origin
+- Agente segretario: Adam v3.0
+- Proprietario: Sem
+- Server: semn1 / 192.168.1.13 / Ubuntu 24 / GTX 1080 8GB / 32GB RAM
 
 ---
 
-## 2. CREDENZIALI (tutte in /home/semn1/origin/.env)
+## 2. CREDENZIALI
 
-Vedi .env sul server. Non ripetere credenziali in questo file.
+Tutte in /home/semn1/origin/.env — non ripetere qui.
+YELP_API_KEY: da aggiungere (Yelp aveva problemi il 22/03/2026, riprovare)
 
 ---
 
 ## 3. SERVIZI ATTIVI
-```bash
-sudo systemctl status adam            # Agente segretario
-sudo systemctl status scraping_agent  # Sub-agent scraping
-docker ps                             # n8n, chromadb, anythingllm
-```
 
-- adam.service: RUNNING
-- scraping_agent.service: RUNNING
+- adam.service: RUNNING (v3.0 con loop proattivo + planner)
+- scraping_agent.service: RUNNING (autonomo 24/7)
 - n8n: porta 5678
 - chromadb: porta 8000
 
 ---
 
-## 4. FILE PRINCIPALI SUL SERVER
+## 4. FILE PRINCIPALI
 ```
 /home/semn1/origin/
-├── adam.py                    # processo Adam v3.0
-├── adam_executor.py           # modulo esecuzione comandi
+├── adam.py                    # v3.0 - loop proattivo + planner integrato
+├── adam_executor.py           # esecuzione comandi server
+├── adam_planner.py            # planner linguaggio naturale -> azioni
 ├── scraping_agent.py          # sub-agent scraping autonomo
+├── new_project.py             # crea nuovo progetto in 30 secondi
+├── generate_status_now.py     # genera questo documento
 ├── projects/
-│   ├── beauty-salon-db/
-│   │   ├── BLUEPRINT.md
-│   │   ├── STATUS.md
-│   │   └── DECISIONS.md
-│   └── agent-army/
-│       ├── BLUEPRINT.md
-│       ├── STATUS.md
-│       └── DECISIONS.md
-└── .env
+│   ├── beauty-salon-db/       # BLUEPRINT, STATUS, DECISIONS
+│   └── agent-army/            # BLUEPRINT, STATUS, DECISIONS
+├── PROJECT_BOOTSTRAP.md       # v2.0 - regole globali sistema
+└── .env                       # tutte le credenziali
 ```
 
 ---
 
 ## 5. ARCHITETTURA MULTI-AGENTE
 
-Adam è il CEO. Sem parla solo con Adam.
-Sub-agent comunicano via tabella agent_tasks in PostgreSQL.
-Quando un agente si blocca, notifica Adam, Adam notifica Sem su Telegram.
-Sem risponde con 1/2/3 o testo libero. Adam trasmette al sub-agent.
+- Adam e' il CEO. Sem parla solo con Adam su Telegram (@SemnMasterBot)
+- Sub-agent comunicano via agent_tasks in PostgreSQL
+- Blocchi -> Adam notifica Sem -> Sem risponde 1/2/3 -> Adam trasmette
+- Planner: comandi linguaggio naturale -> piano JSON -> esecuzione autonoma
 
 ---
 
-## 6. PROGETTI
+## 6. COSA FUNZIONA AL 100%
+
+1. Adam risponde su Telegram (no parse_mode)
+2. Messaggi lunghi in chunk da 3500 caratteri
+3. Loop proattivo ogni 30 minuti
+4. scraping_agent autonomo 24/7
+5. Flusso task Adam -> agente -> notifica blocco -> risposta umana
+6. Meeting virtuale: "meeting beauty salon db"
+7. Struttura progetti Blueprint/Status/Decisions su GitHub
+8. Backup notturno alle 3:00
+9. Planner: comandi complessi eseguiti in autonomia
+10. new_project.py: nuovo progetto in 30 secondi
+
+---
+
+## 7. COMANDI TELEGRAM
+
+- status -> overview sistema
+- meeting [progetto] -> briefing completo
+- lancia scraper [paese] -> avvia scraping
+- stato agenti -> status sub-agent
+- 1/2/3 -> risposta blocco sub-agent
+- genera recap -> recap manuale
+- [qualsiasi comando complesso] -> planner lo esegue in autonomia
+
+---
+
+## 8. PROGETTI
 
 ### Beauty Salon DB
 # Status - Beauty Salon DB
@@ -96,62 +117,55 @@ Sem risponde con 1/2/3 o testo libero. Adam trasmette al sub-agent.
 
 ### Agent Army
 # Status - Agent Army
-**Aggiornato:** 22 Marzo 2026
+**Aggiornato:** 2026-03-22
 
-## Stato generale
-- Fase: Planning
-- GitHub repo: https://github.com/SemN1/Agent-Army
-- Sviluppo: non ancora iniziato
+## Stato
+planning
 
-## Completato
-- Blueprint iniziale definito
-- GitHub repo creato
+## Fase Corrente
+Setup iniziale
 
-## Bloccato
-- Nulla al momento
+## Ultimo Step Completato
+Progetto creato
 
-## Prossimi step
-- Definire blueprint tecnico dettagliato
-- Decidere stack frontend per onboarding
-- Sviluppare primo agente MVP
+## Prossimo Step
+Definire blueprint dettagliato con idea di business
 
+## Blocchi
+Nessuno
 
----
+## Metriche
+- Data creazione: 2026-03-22
 
-## 7. COSA FUNZIONA AL 100%
-
-1. Adam risponde su Telegram (no parse_mode - evita errori 400)
-2. Messaggi lunghi spezzati in chunk da 3500 caratteri
-3. Loop proattivo ogni 30 minuti controlla blocchi sub-agent
-4. scraping_agent.py gira 24/7 come systemd
-5. Flusso completo: Sem -> Adam -> agent_tasks -> sub-agent -> notifica
-6. Meeting virtuale per progetto: "meeting beauty salon db"
-7. Struttura progetti: Blueprint, Status, Decisions su GitHub
-8. Backup notturno alle 3:00 con aggiornamento STATUS.md automatico
 
 ---
 
-## 8. COMANDI TELEGRAM FUNZIONANTI
+## 9. PENDING PER DOMANI
 
-- `status` → stato sistema
-- `lancia scraper italia` → avvia scraping
-- `meeting beauty salon db` → briefing completo progetto
-- `stato agenti` → status tutti i sub-agent
-- `1` / `2` / `3` → risposta a blocco sub-agent
-- `genera recap` → recap giornaliero manuale
-
----
-
-## 9. PENDING AL 2026-03-22
-
-- [ ] Rispondere alle domande di Adam sul meeting beauty salon db
-- [ ] Decidere timeline e nome marketplace
-- [ ] Sviluppare Booksy scraper UK
-- [ ] Iniziare Agent Army fase 1
+- [ ] Ottenere Yelp API Key (yelp.com/developers aveva problemi il 22/03)
+- [ ] Aggiungere YELP_API_KEY in /home/semn1/origin/.env
+- [ ] Testare yelp_scraper.py su UK
+- [ ] Aggiungere Foursquare come seconda fonte telefoni gratuita
+- [ ] Testare planner con comandi piu complessi
+- [ ] Aprire chat Agent Army con new_project.py
 
 ---
 
-## 10. PROMPT PER NUOVA CHAT
+## 10. SCRAPER DISPONIBILI
+```
+/home/semn1/directory_progetto/scrapers/
+├── website_scraper.py     # in corso su Italia
+├── yelp_scraper.py        # pronto, manca API key
+├── treatwell.py
+├── fresha.py
+├── planity.py
+├── overpass_enrichment.py
+└── ...
+```
+
+---
+
+## 11. PROMPT PER NUOVA CHAT
 
 Sei Adam, l'agente segretario di Sem nel sistema Origin.
 Leggi questo documento e carica anche:
