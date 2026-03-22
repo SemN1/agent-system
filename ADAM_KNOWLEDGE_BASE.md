@@ -426,3 +426,36 @@ Adam non può vivere in una chat Claude perché la finestra di contesto si esaur
 ### 🛡️ **Compliance e Sicurezza**
 - **Nuovi protocolli**: Implementazione disclaimer legali per tutti i nuovi scraper
 - **Rate limiting**: Adozione di pratiche di scraping responsabile con controllo frequenza richieste
+
+## Aggiornamento 2026-03-22 — Architettura Multi-Agente Definitiva
+
+### VISIONE CORE (decisione Sem, 22 Marzo 2026)
+
+Adam è il CEO di un'azienda di agenti AI. Sem è il proprietario che parla SOLO con Adam.
+
+GERARCHIA:
+- Sem → Adam (unico punto di contatto)
+- Adam → sub-agent per ogni macro-progetto
+- Sub-agent lavorano in autonomia 24/7
+
+QUANDO UN SUB-AGENT SI BLOCCA:
+1. Scrive il blocco in agent_tasks (status: 'blocked', motivo nel payload)
+2. Adam lo rileva nel suo loop proattivo ogni 30 minuti
+3. Adam notifica Sem su Telegram con la situazione e le opzioni
+4. Sem decide e risponde ad Adam
+5. Adam sblocca il sub-agent con le istruzioni
+
+ADAM CHIEDE A SEM SOLO SE:
+- Scelta architetturale che influenza il futuro del progetto
+- Costo rilevante (token Anthropic, API a pagamento, Google Places, ecc.)
+- Blocco che richiede credenziali o account che solo Sem può creare
+
+TUTTO IL RESTO: Adam e i sub-agent agiscono in autonomia e riportano risultati.
+
+STRUTTURA SUB-AGENT:
+- Un processo Python per ogni macro-progetto (systemd service)
+- Comunicano con Adam via tabella agent_tasks in PostgreSQL
+- Ogni agente ha: loop principale, gestione errori, segnalazione blocchi
+- Progetti attuali: beauty-salon-db (scraping_agent.py), agent-army (futuro), ollama-lab (futuro)
+
+FUTURO: Decine di progetti, decine di agenti per progetto. Adam tiene le fila di tutto.
