@@ -39,9 +39,40 @@ Comparatore con AI - consiglia il salone giusto in base alle preferenze.
 - Paesi: 10 europei
 - Go-live marketplace: da definire
 
-## Roadmap
-1. Fase 1 (attuale): completamento database - scraping Italia, UK, Spagna
-2. Fase 2: enrichment - telefoni mancanti, siti web
-3. Fase 3: costruzione marketplace MVP
-4. Fase 4: lancio e acquisizione saloni
-5. Fase 5: app mobile B2C
+## Roadmap (aggiornata 2026-03-22)
+
+### Fase 1 - Completamento Database (attuale)
+**Trigger completamento:** Copertura telefonica >80% su tutti i paesi prioritari
+
+Paesi prioritari in ordine:
+1. Italia (attuale 24% tel) - website_scraper in corso
+2. Spagna (attuale 11% tel) - da avviare
+3. UK (attuale 22% tel) - Booksy scraper da sviluppare
+4. Francia (59% tel) - enrichment residuo
+5. Germania (51% tel) - enrichment residuo
+6. Olanda (36% tel) - enrichment residuo
+Nordics: rimandati
+
+**Strategia telefoni mancanti:**
+- Ricerca fonti alternative a Google Places (da fare)
+- Calcolo costo Google Places per telefoni mancanti (da fare)
+- Decisione finale su Google Places dopo calcolo
+
+### Fase 2 - Enrichment
+- Deduplicazione fuzzy
+- Completamento siti web
+- Validazione telefoni
+
+### Fase 3 - Marketplace MVP
+**BLOCCATO** fino a DB all'80-90% di completamento
+- Nome marketplace da definire
+- Dominio da registrare
+- Stack tecnico da scegliere
+
+### Fase 4 - Lancio
+- Acquisizione saloni
+- Marketing
+
+### Fase 5 - App Mobile B2C
+- Consumer app
+- Prenotazioni
