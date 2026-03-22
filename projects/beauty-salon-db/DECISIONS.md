@@ -40,3 +40,22 @@
 **Decisione:** Marketplace in backlog fino a database all'80-90% di completamento.
 **Motivo:** Il DB è la benzina del business. Non costruire il motore prima di avere carburante.
 **Trigger per sblocco:** Copertura telefonica >80% su tutti i paesi prioritari.
+
+## 2026-03-22 - Strategia enrichment telefoni mancanti
+**Decisione:** Approccio a tre fasi per i ~270k saloni senza telefono.
+
+**Fase 1 - Fonti gratuite (priorità):**
+- Yelp Fusion API: UK, Germania, Francia (500 richieste/giorno gratis)
+- Foursquare Places API: tutti i paesi (200 richieste/giorno gratis)
+- Website scraper: già in corso su Italia
+- Booksy scraper: UK (da sviluppare)
+Stima recupero: +80.000 telefoni a costo zero.
+
+**Fase 2 - Google Places solo se necessario:**
+- Costo calcolato: ~€715 una tantum per 270k richieste
+- Da usare SOLO dopo aver esaurito fonti gratuite
+- Hard cap obbligatorio su Google Cloud Console: €200/mese max
+- Mai in automatico senza approvazione esplicita di Sem
+
+**Motivo:** Rischio costi esplosivi documentato (€100 addebitati per errore in passato).
+**Trigger per Google Places:** Copertura telefonica <70% dopo Fase 1.
