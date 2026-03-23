@@ -59,3 +59,25 @@ Stima recupero: +80.000 telefoni a costo zero.
 
 **Motivo:** Rischio costi esplosivi documentato (€100 addebitati per errore in passato).
 **Trigger per Google Places:** Copertura telefonica <70% dopo Fase 1.
+
+## 2026-03-23 - Usare Claude API, non Ollama
+**Decisione:** Adam usa SEMPRE Claude API (claude-sonnet-4-20250514). Ollama non viene usato.
+**Motivo:** Ollama troppo lento su GTX 1080. Claude API da risposte di qualita superiore.
+**Impatto:** Tutti i comandi in adam.py chiamano ask_claude(), mai ask_ollama().
+
+## 2026-03-23 - Adam v3.0 architettura completa
+**Decisione:** Adam gira come systemd con thread monitor sub-agent ogni 30 minuti.
+**Componenti:**
+- adam.py v3.0: loop Telegram + thread monitor + planner integrato
+- adam_planner.py: trasforma linguaggio naturale in azioni JSON eseguibili
+- adam_executor.py: esecuzione comandi server
+- scraping_agent.py: sub-agent autonomo per beauty-salon-db
+
+## 2026-03-23 - Parse mode Markdown disabilitato su Telegram
+**Decisione:** Nessun parse_mode nei messaggi Telegram di Adam.
+**Motivo:** Causa errori 400 con codice Python e caratteri speciali.
+
+## 2026-03-23 - Planner per comandi complessi
+**Decisione:** Comandi lunghi (>30 caratteri con verbi d'azione) vanno al planner.
+**Funzionamento:** should_use_planner() -> generate_plan() Claude -> execute_step() per ogni passo.
+**Limite attuale:** generate_code con max_tokens 4096 ancora insufficiente per scraper lunghi.
