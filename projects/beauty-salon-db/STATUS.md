@@ -15,6 +15,10 @@
 | Italia | 36.779 | 24% |
 | UK | 36.184 | 22% |
 | Spagna | 26.351 | 11% |
+| Olanda | - | - |
+| Austria | - | - |
+| Portogallo | - | - |
+| Svizzera | - | - |
 
 ## Scraping in corso
 - website_scraper: attivo su Italia
