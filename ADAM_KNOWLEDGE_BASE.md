@@ -459,3 +459,24 @@ STRUTTURA SUB-AGENT:
 - Progetti attuali: beauty-salon-db (scraping_agent.py), agent-army (futuro), ollama-lab (futuro)
 
 FUTURO: Decine di progetti, decine di agenti per progetto. Adam tiene le fila di tutto.
+
+
+## Aggiornamento 2026-03-29
+
+### 🔧 SVILUPPI TECNICI
+- **Scraper Booksy UK**: Creato script Python completo per scraping dati business, versioni multiple ottimizzate con disclaimer legali e conformità robots.txt
+- **Server Status**: Monitoraggio attivo semn1 (192.168.1.13) - Risorse: 169GB/457GB disk, 4.2GB/31GB RAM, GPU 219MB/8192MB
+
+### 🚀 PROGETTI
+- **Nuovo progetto**: `digalook` creato e inizializzato in fase planning con budget €20k
+- **Beauty Salon DB**: Confermato stato operativo e in crescita
+- **Monitoraggio generale**: Tutti i progetti sotto osservazione attiva
+
+### 🔌 INTEGRAZIONI
+- **Anthropic API**: Status verificato e confermato funzionante, connessione stabile
+- **Sistema di monitoraggio**: Implementato controllo stato server automatico
+
+### 📊 METRICHE ATTIVITÀ
+- Richieste scraper Booksy: Multiple iterazioni e ottimizzazioni
+- Test connessione: Multipli check di funzionamento sistema
+- Gestione progetti: Focus su scaling e ottimizzazione workflow
